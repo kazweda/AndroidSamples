@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiDensity</string>
+    <string name="hello_world">Hello world!(default)</string>
+    <string name="hello_world_sp">Hello world!(20sp)</string>
+    <string name="hello_world_px">Hello world!(20px)</string>
+    <string name="menu_settings">Settings</string>
+    <string name="clickme">Click Me!!</string>
+    <string name="clickme_dp">Click Me!!(200dp)</string>
+    <string name="clickme_px">Click Me!!(200px)</string>
+    
+</resources>

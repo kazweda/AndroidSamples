@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/TextHello" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/hello_world" />
+    
+	<TextView
+	    android:id="@+id/TextHelloSP"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+        android:gravity="center"
+	    android:layout_below="@id/TextHello"
+	    android:text="@string/hello_world_sp"
+	    android:textSize="20sp" />
+	
+	<TextView
+	    android:id="@+id/TextHelloPX"
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+        android:gravity="center"
+	    android:layout_below="@id/TextHelloSP"
+	    android:text="@string/hello_world_px"
+	    android:textSize="20px" />
+	
+	<Button
+	    android:id="@+id/Button1"
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+	    android:text="@string/clickme"
+	    android:layout_below="@id/TextHelloPX"
+	    android:layout_marginTop="20dp" />
+	
+	<Button
+	    android:id="@+id/ButtonDP"
+	    android:layout_width="200dp" 
+	    android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+	    android:text="@string/clickme_dp"
+	    android:layout_below="@id/Button1"
+	    android:layout_marginTop="20dp" />
+		
+	<Button
+	    android:id="@+id/ButtonPX"
+	    android:layout_width="200px" 
+	    android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+	    android:text="@string/clickme_px"
+	    android:layout_below="@id/ButtonDP"
+	    android:layout_marginTop="20dp" />
+	
+	<Button
+	    android:id="@+id/ButtonGrey"
+	    android:layout_height="40dp"
+	    android:layout_width="200dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/ButtonPX"
+	    android:layout_marginTop="20dp"
+	    android:background="@drawable/button_grey"
+	    android:onClick="showTimePickerDialog" />
+		
+</RelativeLayout>
