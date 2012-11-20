@@ -6,14 +6,11 @@ import android.os.Bundle;
 import android.app.DatePickerDialog;
 import android.app.DatePickerDialog.OnDateSetListener;
 import android.app.Dialog;
-import android.app.TimePickerDialog;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
-import android.text.format.DateFormat;
 import android.view.Menu;
 import android.view.View;
 import android.widget.DatePicker;
-import android.widget.TimePicker;
 
 // For more details, refer to next URI.
 // http://developer.android.com/intl/ja/guide/topics/ui/controls/pickers.html
