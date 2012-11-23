@@ -9,5 +9,6 @@
     <string name="clickme">Click Me!!</string>
     <string name="clickme_dp">Click Me!!(200dp)</string>
     <string name="clickme_px">Click Me!!(200px)</string>
+    <string name="calendar">Calendar</string>
     
 </resources>

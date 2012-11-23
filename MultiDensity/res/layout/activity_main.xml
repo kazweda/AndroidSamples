@@ -58,13 +58,14 @@
 	    android:layout_marginTop="20dp" />
 	
 	<Button
-	    android:id="@+id/ButtonGrey"
+	    android:id="@+id/ButtonGrad"
 	    android:layout_height="40dp"
 	    android:layout_width="200dp"
 	    android:layout_centerHorizontal="true"
 	    android:layout_below="@id/ButtonPX"
 	    android:layout_marginTop="20dp"
-	    android:background="@drawable/button_grey"
+	    android:text="@string/calendar"
+	    android:background="@drawable/button_grad"
 	    android:onClick="showTimePickerDialog" />
 		
 </RelativeLayout>
